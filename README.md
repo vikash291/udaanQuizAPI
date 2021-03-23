@@ -14,3 +14,9 @@ CREATE TABLE quizapp.questions (
 	question_id INT auto_increment NOT null primary key,
 	question varchar(100) NOT NULL
 );
+
+<ul> API URLs:
+	<li>udaanQuizAPI/index.php?quiz=getQuestions </li>
+	<li>udaanQuizAPI/index.php?quiz=getQuestions&page=2 </li>
+	<li>udaanQuizAPI/index.php?quiz=getQuestions&page=2&limit=20 </li>
+</ul>
